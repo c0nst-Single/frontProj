@@ -1,0 +1,16 @@
+Команды гида
+
+- git status - просмотр контрольных точек и изминений
+- git checkout - сброс до предидущего состояния
+- git log - просмотр все коммитов
+- git push отправка изминений на github
+- git clone (путь с репозитория) - для загрузи репозитория с github
+- git pull - обновить уже загруженный репозиторий
+
+1 - git init - инициировать git в новый проект
+2 - git config --local user.name "Andrey"  - настроить(local/global) имя
+3 - git config --local user.email kayroswww@gmail.com эмаил
+4 - git add -A - добовляет все недобавленные файлы в "index"
+5 - git commit -a -m"first commit" - добавить коментарий(текст в скобках)
+6 - git remote add origin https://github.com/c0nst-Single/frontProj.git для связи git с githubв(у каждого свой)
+6 - git push -u origin master - отправить репозиторий на github
